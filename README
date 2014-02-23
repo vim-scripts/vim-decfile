@@ -1,0 +1,3 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=4872
+
+vim-decfile is a plugin for EvtGen decay files (http://evtgen.warwick.ac.uk), providing syntax highlighting and Decay block folding.

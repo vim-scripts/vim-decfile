@@ -1,0 +1,49 @@
+=======================================================================
+DECFILE                                                         *decfile*
+                         _            __ _ _         ~
+                      __| | ___  ___ / _(_) | ___    ~
+                     / _` |/ _ \/ __| |_| | |/ _ \   ~
+                    | (_| |  __/ (__|  _| | |  __/   ~
+                     \____|\___|\___|_| |_|_|\___|   ~
+
+                    A plugin for EvtGen decay files
+                  Scott Stevenson <scott@stevenson.io>
+
+=======================================================================
+CONTENTS                                               *decfile-contents*
+
+    1. About ..............................|decfile-about|
+    2. Configuration ......................|decfile-configuration|
+    3. Issues .............................|decfile-issues|
+    4. Licence ............................|decfile-licence|
+
+=======================================================================
+ABOUT                                                     *decfile-about*
+
+vim-decfile is a plugin for EvtGen decay files, providing syntax
+highlighting and Decay block folding.
+
+=======================================================================
+CONFIGURATION                                     *decfile-configuration*
+
+To disable the |folding| of Decay blocks (enabled by default), add the
+following to your |.vimrc|:
+>
+    let g:vim_decfile_disable_folding=1
+<
+=======================================================================
+ISSUES                                                   *decfile-issues*
+
+Bug reports and patches are welcome either on the issue tracker at
+https://github.com/stevensons/vim-decfile/issues or by email.
+
+=======================================================================
+LICENCE                                                 *decfile-licence*
+
+Copyright © 2014 Scott Stevenson.
+
+vim-decfile is distributed under the same terms as Vim itself, see
+|license| for details.
+
+=======================================================================
+vim:et:ft=help:norl:ts=4:tw=72:

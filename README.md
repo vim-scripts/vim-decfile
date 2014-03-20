@@ -1,30 +1,42 @@
 vim-decfile
 ===========
 
-[vim-decfile] is a Vim plugin for [EvtGen] decay files, providing syntax
-highlighting and `Decay` block folding.
+[vim-decfile] is a Vim plugin for [EvtGen] decay files.
 
-[vim-decfile]: https://github.com/stevensons/vim-decfile#vim-decfile
-[EvtGen]: http://evtgen.warwick.ac.uk
+Features
+--------
+
+* Syntax highlighting
+* `Decay` block [folding]
+* Jump between matching `Decay` and `Enddecay` pairs with [`%`][percent]
 
 Installation
 ------------
 
-If you use [Vundle], add the following to your `.vimrc` before running
-`:BundleInstall`:
+Using [NeoBundle], add the following to your `.vimrc` and run
+`:NeoBundleInstall`:
 
 ```vim
-Bundle "stevensons/vim-decfile"
+NeoBundle 'stevensons/vim-decfile'
 ```
 
-If you use [pathogen.vim], run:
+Using [Vundle], add the following to your `.vimrc` and run `:BundleInstall`:
+
+```vim
+Bundle 'stevensons/vim-decfile'
+```
+
+Using [VAM], add the following to your `.vimrc`:
+
+```vim
+VAMActivate vim-decfile
+```
+
+Using [pathogen.vim], run:
 
 ```bash
 $ git clone git://github.com/stevensons/vim-decfile ~/.vim/bundle/vim-decfile
 ```
-
-[Vundle]: https://github.com/gmarik/Vundle.vim
-[pathogen.vim]: https://github.com/tpope/vim-pathogen
 
 Configuration
 -------------
@@ -35,13 +47,11 @@ your `.vimrc`:
 ```vim
 let g:vim_decfile_disable_folding=1
 ```
+
 Issues
 ------
 
-Bug reports and patches are welcome either on the [issue tracker] or by [email].
-
-[issue tracker]: https://github.com/stevensons/vim-decfile/issues
-[email]: mailto:scott@stevenson.io
+Bug reports and patches are welcome on the [issue tracker].
 
 Licence
 -------
@@ -51,4 +61,13 @@ Copyright © 2014 Scott Stevenson.
 vim-decfile is distributed under the same terms as Vim itself.  See [`:help
 license`][licence] for details.
 
+[EvtGen]: http://evtgen.warwick.ac.uk
+[folding]: http://vimdoc.sourceforge.net/htmldoc/fold.html#folding
+[issue tracker]: https://github.com/stevensons/vim-decfile/issues
 [licence]: http://vimdoc.sourceforge.net/htmldoc/uganda.html#license
+[NeoBundle]: https://github.com/Shougo/neobundle.vim
+[pathogen.vim]: https://github.com/tpope/vim-pathogen
+[percent]: http://vimdoc.sourceforge.net/htmldoc/motion.html#%
+[VAM]: https://github.com/MarcWeber/vim-addon-manager
+[vim-decfile]: https://github.com/stevensons/vim-decfile#vim-decfile
+[Vundle]: https://github.com/gmarik/Vundle.vim

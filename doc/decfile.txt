@@ -21,8 +21,8 @@ CONTENTS                                                      *decfile-contents*
 ABOUT                                                            *decfile-about*
 
 vim-decfile is a plugin for EvtGen decay files, providing syntax highlighting,
-Decay block |folding|, and jumping between matching Decay and Enddecay pairs
-with '|%|'.
+Decay block |folding|, and support for jumping between matching Decay and
+Enddecay pairs with '|%|'.
 
 ==============================================================================
 CONFIGURATION                                            *decfile-configuration*
@@ -30,7 +30,7 @@ CONFIGURATION                                            *decfile-configuration*
 To disable the |folding| of Decay blocks (enabled by default), add the
 following to your |.vimrc|:
 >
-    let g:vim_decfile_disable_folding=1
+    let g:vim_decfile_disable_folding = 1
 <
 ==============================================================================
 ISSUES                                                          *decfile-issues*

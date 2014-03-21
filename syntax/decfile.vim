@@ -6,19 +6,19 @@ endif
 
 syn case match
 
-syn match decfileNumber "\<\d\+\>"
-syn match decfileNumber "\<[-+]\d\+\>"
+syn match decfileNumber '\<\d\+\>'
+syn match decfileNumber '\<[-+]\d\+\>'
 
-syn match decfileFloat "\<\d\+\.\d*"
-syn match decfileFloat "\<[-+]\d\+\.\d*"
-syn match decfileFloat "\<\d\+[eE]\d\+\>"
-syn match decfileFloat "\<\d\+[eE][-+]\d\+\>"
-syn match decfileFloat "\<[-+]\d\+[eE]\d\+\>"
-syn match decfileFloat "\<[-+]\d\+[eE][-+]\d\+\>"
-syn match decfileFloat "\<\d\+\.\d*[eE]\d\+\>"
-syn match decfileFloat "\<\d\+\.\d*[eE][-+]\d\+\>"
-syn match decfileFloat "\<[-+]\d\+\.\d*[eE]\d\+\>"
-syn match decfileFloat "\<[-+]\d\+\.\d*[eE][-+]\d\+\>"
+syn match decfileFloat '\<\d\+\.\d*'
+syn match decfileFloat '\<[-+]\d\+\.\d*'
+syn match decfileFloat '\<\d\+[eE]\d\+\>'
+syn match decfileFloat '\<\d\+[eE][-+]\d\+\>'
+syn match decfileFloat '\<[-+]\d\+[eE]\d\+\>'
+syn match decfileFloat '\<[-+]\d\+[eE][-+]\d\+\>'
+syn match decfileFloat '\<\d\+\.\d*[eE]\d\+\>'
+syn match decfileFloat '\<\d\+\.\d*[eE][-+]\d\+\>'
+syn match decfileFloat '\<[-+]\d\+\.\d*[eE]\d\+\>'
+syn match decfileFloat '\<[-+]\d\+\.\d*[eE][-+]\d\+\>'
 
 syn keyword decfileFunction ABSEXTERNALGEN
 syn keyword decfileFunction BARYONPCR

@@ -45,7 +45,7 @@ To disable folding of `Decay` blocks (enabled by default), add the following to
 your `.vimrc`:
 
 ```vim
-let g:vim_decfile_disable_folding=1
+let g:vim_decfile_disable_folding = 1
 ```
 
 Issues

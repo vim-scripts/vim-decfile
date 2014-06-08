@@ -5,7 +5,7 @@ if exists("loaded_matchit")
     let b:undo_ftplugin .= " | unlet! b:match_words"
 endif
 
-if !exists("g:vim_decfile_disable_folding")
+if !exists("g:decfile_disable_folding")
     setl foldenable
     setl foldmethod=marker
     setl foldmarker=Decay,Enddecay

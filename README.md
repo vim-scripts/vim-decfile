@@ -20,10 +20,10 @@ Using [NeoBundle], add the following to your `.vimrc` and run
 NeoBundle 'stevensons/vim-decfile'
 ```
 
-Using [Vundle], add the following to your `.vimrc` and run `:BundleInstall`:
+Using [Vundle], add the following to your `.vimrc` and run `:PluginInstall`:
 
 ```vim
-Bundle 'stevensons/vim-decfile'
+Plugin 'stevensons/vim-decfile'
 ```
 
 Using [VAM], add the following to your `.vimrc`:
@@ -45,7 +45,7 @@ To disable folding of `Decay` blocks (enabled by default), add the following to
 your `.vimrc`:
 
 ```vim
-let g:vim_decfile_disable_folding = 1
+let g:decfile_disable_folding = 1
 ```
 
 Issues

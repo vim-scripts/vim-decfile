@@ -30,12 +30,12 @@ CONFIGURATION                                            *decfile-configuration*
 To disable the |folding| of Decay blocks (enabled by default), add the
 following to your |.vimrc|:
 >
-    let g:vim_decfile_disable_folding = 1
+    let g:decfile_disable_folding = 1
 <
 ==============================================================================
 ISSUES                                                          *decfile-issues*
 
-Bug reports and patches are welcome either on the issue tracker at
+Bug reports and patches are welcome on the issue tracker at
 https://github.com/stevensons/vim-decfile/issues
 
 ==============================================================================

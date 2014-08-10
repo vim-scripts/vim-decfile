@@ -1,12 +1,12 @@
 " syntax/decfile.vim
 
-if exists("b:current_syntax")
+if exists('b:current_syntax')
     finish
 endif
 
 syn case match
 
-syn match decfileNumber '\<\d\+\>'
+syn match decfileNumber '\*\@<!\<\d\+\>'
 syn match decfileNumber '\<[-+]\d\+\>'
 
 syn match decfileFloat '\<\d\+\.\d*'
@@ -207,7 +207,7 @@ syn keyword decfileTodo contained FIXME
 syn keyword decfileTodo contained TODO
 syn keyword decfileTodo contained XXX
 
-syn match decfileComment "#.*$" contains=decfileTodo,@Spell
+syn match decfileComment '#.*$' contains=decfileTodo,@Spell
 
 hi def link decfileNumber Number
 hi def link decfileFloat Float
@@ -216,4 +216,4 @@ hi def link decfileKeyword Keyword
 hi def link decfileTodo Todo
 hi def link decfileComment Comment
 
-let b:current_syntax = "decfile"
+let b:current_syntax = 'decfile'

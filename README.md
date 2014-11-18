@@ -13,17 +13,23 @@ Features
 Installation
 ------------
 
+Using [vim-plug], add the following to your `.vimrc` and run `:PlugInstall`:
+
+```vim
+Plug 'srstevenson/vim-decfile'
+```
+
 Using [NeoBundle], add the following to your `.vimrc` and run
 `:NeoBundleInstall`:
 
 ```vim
-NeoBundle 'stevensons/vim-decfile'
+NeoBundle 'srstevenson/vim-decfile'
 ```
 
 Using [Vundle], add the following to your `.vimrc` and run `:PluginInstall`:
 
 ```vim
-Plugin 'stevensons/vim-decfile'
+Plugin 'srstevenson/vim-decfile'
 ```
 
 Using [VAM], add the following to your `.vimrc`:
@@ -34,8 +40,8 @@ VAMActivate vim-decfile
 
 Using [pathogen.vim], run:
 
-```bash
-$ git clone git://github.com/stevensons/vim-decfile ~/.vim/bundle/vim-decfile
+```sh
+$ git clone https://github.com/srstevenson/vim-decfile ~/.vim/bundle/vim-decfile
 ```
 
 Configuration
@@ -63,11 +69,12 @@ license`][licence] for details.
 
 [EvtGen]: http://evtgen.warwick.ac.uk
 [folding]: http://vimdoc.sourceforge.net/htmldoc/fold.html#folding
-[issue tracker]: https://github.com/stevensons/vim-decfile/issues
+[issue tracker]: https://github.com/srstevenson/vim-decfile/issues
 [licence]: http://vimdoc.sourceforge.net/htmldoc/uganda.html#license
 [NeoBundle]: https://github.com/Shougo/neobundle.vim
 [pathogen.vim]: https://github.com/tpope/vim-pathogen
 [percent]: http://vimdoc.sourceforge.net/htmldoc/motion.html#%
 [VAM]: https://github.com/MarcWeber/vim-addon-manager
-[vim-decfile]: https://github.com/stevensons/vim-decfile#vim-decfile
+[vim-decfile]: https://github.com/srstevenson/vim-decfile
+[vim-plug]: https://github.com/junegunn/vim-plug
 [Vundle]: https://github.com/gmarik/Vundle.vim

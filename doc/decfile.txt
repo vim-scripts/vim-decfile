@@ -36,7 +36,7 @@ following to your |.vimrc|:
 ISSUES                                                          *decfile-issues*
 
 Bug reports and patches are welcome on the issue tracker at
-https://github.com/stevensons/vim-decfile/issues
+https://github.com/srstevenson/vim-decfile/issues
 
 ==============================================================================
 LICENCE                                                        *decfile-licence*

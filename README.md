@@ -13,35 +13,38 @@ Features
 Installation
 ------------
 
-Using [vim-plug], add the following to your `.vimrc` and run `:PlugInstall`:
+Using [vim-plug], add the following to your `.vimrc`, restart Vim, and run
+`:PlugInstall`:
 
-```vim
-Plug 'srstevenson/vim-decfile'
+```viml
+Plug 'srstevenson/vim-decfile', { 'for' : 'decfile' }
 ```
 
-Using [NeoBundle], add the following to your `.vimrc` and run
+Using [NeoBundle], add the following to your `.vimrc`, restart Vim, and run
 `:NeoBundleInstall`:
 
-```vim
-NeoBundle 'srstevenson/vim-decfile'
+```viml
+NeoBundleLazy 'srstevenson/vim-decfile'
+autocmd FileType decfile NeoBundleSource vim-decfile
 ```
 
-Using [Vundle], add the following to your `.vimrc` and run `:PluginInstall`:
+Using [Vundle], add the following to your `.vimrc`, restart Vim, and run
+`:PluginInstall`:
 
-```vim
+```viml
 Plugin 'srstevenson/vim-decfile'
 ```
 
-Using [VAM], add the following to your `.vimrc`:
+Using [VAM], add the following to your `.vimrc` and restart Vim:
 
-```vim
+```viml
 VAMActivate vim-decfile
 ```
 
-Using [pathogen.vim], run:
+Using [pathogen.vim], run the following in a shell and restart Vim:
 
 ```sh
-$ git clone https://github.com/srstevenson/vim-decfile ~/.vim/bundle/vim-decfile
+git clone https://github.com/srstevenson/vim-decfile ~/.vim/bundle/vim-decfile
 ```
 
 Configuration
@@ -50,7 +53,7 @@ Configuration
 To disable folding of `Decay` blocks (enabled by default), add the following to
 your `.vimrc`:
 
-```vim
+```viml
 let g:decfile_disable_folding = 1
 ```
 
@@ -62,18 +65,18 @@ Bug reports and patches are welcome on the [issue tracker].
 Licence
 -------
 
-Copyright © 2014 Scott Stevenson.
+Copyright © 2014-2015 Scott Stevenson.
 
 vim-decfile is distributed under the same terms as Vim itself.  See [`:help
 license`][licence] for details.
 
 [EvtGen]: http://evtgen.warwick.ac.uk
-[folding]: http://vimdoc.sourceforge.net/htmldoc/fold.html#folding
+[folding]: https://vimhelp.appspot.com/fold.txt.html#folding
 [issue tracker]: https://github.com/srstevenson/vim-decfile/issues
-[licence]: http://vimdoc.sourceforge.net/htmldoc/uganda.html#license
+[licence]: https://vimhelp.appspot.com/uganda.txt.html#license
 [NeoBundle]: https://github.com/Shougo/neobundle.vim
 [pathogen.vim]: https://github.com/tpope/vim-pathogen
-[percent]: http://vimdoc.sourceforge.net/htmldoc/motion.html#%
+[percent]: https://vimhelp.appspot.com/motion.txt.html#%
 [VAM]: https://github.com/MarcWeber/vim-addon-manager
 [vim-decfile]: https://github.com/srstevenson/vim-decfile
 [vim-plug]: https://github.com/junegunn/vim-plug

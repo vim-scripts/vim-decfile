@@ -6,7 +6,7 @@ if exists('loaded_matchit')
 endif
 
 if !exists('g:decfile_disable_folding')
-    setl foldenable
-    setl foldmethod=marker
-    setl foldmarker=Decay,Enddecay
+    setlocal foldenable
+    setlocal foldmethod=marker
+    setlocal foldmarker=Decay,Enddecay
 endif

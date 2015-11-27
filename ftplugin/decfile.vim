@@ -6,8 +6,8 @@ endif
 let b:did_ftplugin = 1
 
 " Set compatibility options to Vim defaults
-let s:cpo_save = &cpo
-set cpo&vim
+let s:cpoptions_save = &cpoptions
+set cpoptions&vim
 
 " Reset 'comments', 'commentstring' and 'formatoptions'
 let b:undo_ftplugin = 'setlocal comments< commentstring< formatoptions<'
@@ -20,5 +20,5 @@ setlocal comments=:# commentstring=#\ %s
 setlocal formatoptions-=t formatoptions+=croql
 
 " Reset compatibility options
-let &cpo = s:cpo_save
-unlet s:cpo_save
+let &cpoptions = s:cpoptions_save
+unlet s:cpoptions_save

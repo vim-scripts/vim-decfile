@@ -80,4 +80,4 @@ license`][licence] for details.
 [VAM]: https://github.com/MarcWeber/vim-addon-manager
 [vim-decfile]: https://github.com/srstevenson/vim-decfile
 [vim-plug]: https://github.com/junegunn/vim-plug
-[Vundle]: https://github.com/gmarik/Vundle.vim
+[Vundle]: https://github.com/VundleVim/Vundle.vim

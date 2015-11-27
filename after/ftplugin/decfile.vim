@@ -5,7 +5,7 @@ if exists('loaded_matchit')
     let b:undo_ftplugin .= ' | unlet! b:match_words'
 endif
 
-if !exists('g:decfile_disable_folding')
+if !get(g:, 'decfile_disable_folding')
     setlocal foldenable
     setlocal foldmethod=marker
     setlocal foldmarker=Decay,Enddecay
